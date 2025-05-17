@@ -1,0 +1,51 @@
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('images/imagenFondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(0.85);
+  color: #f5f5dc;
+}
+
+.container {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+}
+
+.titulo {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: larger;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo h1 {
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.container h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.two {
+  padding-bottom: 5px;
+}
+
+.container, .titulo {
+  border: 4px solid #8B4513; /* Marrón tipo "saddle brown" */
+  border-radius: 10px;       /* Opcional: esquinas redondeadas */
+  padding: 10px;             /* Espacio interior */
+  margin-bottom: 20px;       /* Espacio entre divs */
+}
